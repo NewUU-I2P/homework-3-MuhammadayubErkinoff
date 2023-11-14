@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     cout << "Problem 1\n";
-    float s=problemSolution1(55);
+    float s=problemSolution1(29.9);
     cout<<s<<"\n";
     cout << "Problem 2\n";
     //problemSolution2();
