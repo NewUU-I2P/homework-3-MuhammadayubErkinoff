@@ -4,7 +4,7 @@
 std::string problemSolution4(const std::string &macAddress) {
     bool b=1;
     for(int i=0;i<17;i++){
-        if(macAddress[i]!='F'||macAddress[i]!=':'){
+        if(macAddress[i]!='F'&&macAddress[i]!=':'){
             b=0;
             break;
         }

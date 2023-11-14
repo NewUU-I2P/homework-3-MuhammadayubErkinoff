@@ -1,4 +1,5 @@
-void problemSolution1(float consumed_water) {
+
+float problemSolution1(float consumed_water) {
     float cost=13;
     if(consumed_water>=60) {
         cost+=12+2.4+14;
