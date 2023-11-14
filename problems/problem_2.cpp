@@ -1,6 +1,3 @@
 float problemSolution2(float i, float j, float k) {
-    float result;
-    // write your code here;
-
-    return result;
+    return (i>j? i:j)>k? (i>j? i:j):k;
 }
