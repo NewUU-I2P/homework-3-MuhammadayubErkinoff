@@ -10,14 +10,14 @@ std::string problemSolution4(const std::string &macAddress) {
         }
     }
     if(b){
-        return "Broadcast"l
+        return "Broadcast";
     }
     else{
         if(macAddress[1]=='0'||macAddress[1]=='2'||macAddress[1]=='4'||macAddress[1]=='6'||macAddress[1]=='8'||macAddress[1]=='A'||macAddress[1]=='C'||macAddress[1]=='E'){
-            return unicast;
+            return "Unicast";
         }
         else{
-            return multicast;
+            return "Multicast";
         }
     }
 }
